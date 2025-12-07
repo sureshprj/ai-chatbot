@@ -1,0 +1,11 @@
+[project]
+name = "rag-monorepo-dev"
+version = "0.1.0"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "black",
+    "ruff",
+    "mypy"
+]
